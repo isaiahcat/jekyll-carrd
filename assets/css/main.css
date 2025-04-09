@@ -64,7 +64,7 @@ body {
   font-size: 0.7em;
   opacity: 0.6;
 }
-.footer .social {
+.social {
   list-style: none;
   padding: 0;
   display: flex;
@@ -72,6 +72,15 @@ body {
   gap: 1em;
   margin-bottom: 0.5em;
 }
-.footer .social li a {
+.social li a {
   text-decoration: none;
+}
+.social i {
+  font-size: 1.2rem;
+  color: #fff;
+  transition: color 0.2s ease;
+}
+
+.social i:hover {
+  color: #aaa;
 }
