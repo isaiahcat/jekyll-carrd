@@ -45,12 +45,11 @@ body {
   font-size: 1.25rem;
   font-weight: 400;
 }
-.about {
+.section {
   border-top: 1px solid #3d3d3d;
-  margin-top: 2rem;
   padding: 2rem;
 }
-.about-header {
+.section-header {
   text-align: center;
 }
 .arrow-button {
@@ -72,7 +71,7 @@ body {
 .arrow-button:hover {
   background-color: var(--secondary-color);
 }
-.about-header h2 {
+.section-title {
   font-size: 2rem;
   color: #3d3d3d;
   margin: 1rem auto;

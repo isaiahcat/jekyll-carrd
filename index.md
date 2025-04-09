@@ -5,26 +5,82 @@ title: Home
 
 <div class="wrapper">
   <div class="main">
-    <div class="header" style="text-align: center;">
+    <div class="header" style="text-align: center; margin-bottom: 2rem;">
       <img src="assets/images/image.png" alt="Image" width="256" />
       <h1>Isaiah Butler</h1>
       <div class="divider"></div>
       <p class="job-title">Technical Project Manager | Software Developer</p>
       {% include socials.html %}
     </div>
-    <section class="about" id="about">
-      <div class="about-header">
+    <section id="about" class="section" >
+      <div class="section-header">
         <a href="#about" class="arrow-button"><i class="fas fa-chevron-down"></i></a>        
-        <h2>About Me</h2>
+        <h2 class="section-title">About Me</h2>
         <div class="divider"></div>
       </div>
       <div class="about-text">
-        <p>Hi! I’m Isaiah Butler, and I’m a Technical Project Manager 👋</p>
+        <p>Hi! I’m Isaiah Butler, and I’m a Technical Project Manager with a background in Software Development. 👋</p>
         <p>I lead cross-functional teams and help ship software that’s user-focused and on time.</p>
         <p>I’m passionate about collaborating across disciplines, optimizing workflows, and using tech to solve real-world problems efficiently.</p>
         <p>I’ve worked on mobile apps, internal tools, and AI-based projects—and I’m always excited to learn more.</p>
       </div>
-  </section>
+    </section>
+    <section id="skills" class="section">
+      <div class="section-header">
+        <a href="#skills" class="arrow-button"><i class="fas fa-chevron-down"></i></a>
+        <h2 class="section-title">Skills</h2>
+        <div class="divider"></div>
+        <div class="skills-grid">
+          <!-- Project & Agile Methodologies -->
+          <div class="skill-item">
+            <i class="fa-solid fa-diagram-project"></i>
+            <span>Agile / Scrum</span>
+          </div>
+          <div class="skill-item">
+            <i class="devicon-jira-plain colored"></i>
+            <span>Jira</span>
+          </div>
+          <div class="skill-item">
+            <i class="devicon-confluence-plain colored"></i>
+            <span>Confluence</span>
+          </div>
+          <div class="skill-item">
+            <i class="fa-solid fa-users-gear"></i>
+            <span>Team Leadership</span>
+          </div>
+          <div class="skill-item">
+            <i class="fa-solid fa-comments"></i>
+            <span>Stakeholder Comms</span>
+          </div>
+          <!-- Tools & Platforms -->
+          <div class="skill-item">
+            <i class="fa-solid fa-plug"></i>
+            <span>API Integration</span>
+          </div>
+          <div class="skill-item">
+            <i class="devicon-firebase-plain colored"></i>
+            <span>Firebase</span>
+          </div>
+          <div class="skill-item">
+            <i class="fa-brands fa-google-play"></i>
+            <span>Google Play Console</span>
+          </div>
+          <!-- Technical Fluency -->
+          <div class="skill-item">
+            <i class="devicon-git-plain colored"></i>
+            <span>Version Control</span>
+          </div>
+          <div class="skill-item">
+            <i class="fa-solid fa-fingerprint"></i>
+            <span>eKYC / Biometrics</span>
+          </div>
+          <div class="skill-item">
+            <i class="fa-solid fa-chart-line"></i>
+            <span>Analytics</span>
+          </div>
+        </div>
+      </div>
+    </section>
     <div class="card">
       <div class="text">
         <strong>MAGNA ETIAM</strong>
