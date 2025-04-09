@@ -8,7 +8,7 @@ title: Home
     <div class="header" style="text-align: center;">
       <img src="/assets/images/logo.svg" alt="Logo" width="64" />
       <h1>Isaiah Butler</h1>
-      <p>Ipsum gravida sed feugiat amet tempus</p>
+      <p>Agile Project Manager | Software Developer</p>
     </div>
 
     <div class="card">

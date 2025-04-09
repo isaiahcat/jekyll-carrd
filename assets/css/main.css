@@ -7,14 +7,28 @@ body {
   padding: 0;
 }
 .wrapper {
+  -webkit-overflow-scrolling: touch;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: var(--viewport-height);
+  overflow: hidden;
+  position: relative;
+  z-index: 2;  
   padding: 3.5rem 3.5rem 3.5rem 3.5rem;
 }
 .main {
-  max-width: 480px;
-  margin: auto;
-  padding: 2em;
-  background-color: rgba(40, 40, 50, 0.9);
-  border-radius: 8px;
+  --padding-horizontal: 3rem;
+  --padding-vertical: 3.75rem;
+  --spacing: 1.5rem;
+  --width: 38rem;
+  border-radius: var(--border-radius-tl) var(--border-radius-tr) var(--border-radius-br) var(--border-radius-bl);
+  max-width: 100%;
+  position: relative;
+  width: var(--width);
+  z-index: 1;
+  padding: var(--padding-vertical) var(--padding-horizontal);
 }
 .card {
   border-top: 1px solid rgba(255,255,255,0.1);
