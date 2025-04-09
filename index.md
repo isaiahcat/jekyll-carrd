@@ -11,7 +11,6 @@ title: Home
       <p>Agile Project Manager | Software Developer</p>
       {% include socials.html %}
     </div>
-
     <div class="card">
       <div class="text">
         <strong>MAGNA ETIAM</strong>
@@ -20,7 +19,6 @@ title: Home
       </div>
       <img src="/assets/images/sample1.jpg" alt="Sample 1" />
     </div>
-
     <div class="card">
       <img src="/assets/images/sample2.jpg" alt="Sample 2" />
       <div class="text">
@@ -29,7 +27,6 @@ title: Home
         <a class="button" href="#">More</a>
       </div>
     </div>
-
     <div class="card">
       <div class="text">
         <strong>NISL BLANDIT</strong>
@@ -38,5 +35,9 @@ title: Home
       </div>
       <img src="/assets/images/sample3.jpg" alt="Sample 3" />
     </div>
+    <footer class="footer">
+        {% include socials.html %}
+      <p>&copy; Isaiah Butler. 2025. All rights reserved.</p>
+    </footer>
   </div>
 </div>
