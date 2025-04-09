@@ -42,6 +42,33 @@ body {
   font-size: 1.25rem;
   font-weight: 400;
 }
+.about {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+.about-header .arrow {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.about-header h2 {
+  font-size: 2rem;
+  color: #3d3d3d;
+  margin-bottom: 0.25rem;
+}
+.about-header .underline {
+  width: 40px;
+  height: 4px;
+  background-color: #f6c867; /* match your yellow */
+  margin: 0.5rem auto 1.5rem;
+  border-radius: 2px;
+}
+.about-text p {
+  color: #3d3d3d;
+  margin: 0.75rem 0;
+  line-height: 1.6;
+  font-size: 1rem;
+}
 .card {
   border-top: 1px solid #3d3d3d;
   padding: 1em 0;

@@ -12,6 +12,19 @@ title: Home
       <p class="job-title">Agile Project Manager | Software Developer</p>
       {% include socials.html %}
     </div>
+    <section class="about" id="about">
+      <div class="about-header">
+        <div class="arrow">⬇️</div>
+        <h2>About Me</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="about-text">
+        <p>Hi! I’m Isaiah Butler, and I’m a Technical Project Manager 👋</p>
+        <p>I lead cross-functional teams and help ship software that’s user-focused and on time.</p>
+        <p>I’m passionate about collaborating across disciplines, optimizing workflows, and using tech to solve real-world problems ⚡ <strong>efficiently</strong> ⚡.</p>
+        <p>I’ve worked on mobile apps, internal tools, and AI-based prototypes—and I’m always excited to learn more.</p>
+      </div>
+  </section>
     <div class="card">
       <div class="text">
         <strong>MAGNA ETIAM</strong>
