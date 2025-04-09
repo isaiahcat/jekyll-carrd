@@ -1,6 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   --primary-color: #d9b48c;
   --secondary-color: #ca9d70;
+  --icon-size: 48px;
   background: linear-gradient(rgba(40, 40, 50, 0.30), rgba(40, 40, 50, 0.30)), url('../images/bg.jpeg') no-repeat center center fixed;
   background-size: cover;
   color: #3d3d3d;
@@ -18,10 +22,9 @@ body {
   overflow: hidden;
   position: relative;
   z-index: 2;  
-  padding: 3.5rem 3.5rem 3.5rem 3.5rem;
+  padding: 3.5rem;
 }
 .main {
-  --spacing: 1.5rem;
   max-width: 100%;
   position: relative;
   width: 38rem;
@@ -36,36 +39,47 @@ body {
   width: 50px;
   height: 4px;
   background-color: var(--primary-color);
-  margin: 0rem auto 0rem auto;
+  margin: 0rem auto;
 }
 .job-title {
   font-size: 1.25rem;
   font-weight: 400;
 }
 .about {
-  text-align: center;
-  margin-top: 3rem;
+  border-top: 1px solid #3d3d3d;
+  margin-top: 2rem;
   padding: 2rem;
 }
-.about-header .arrow {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+.about-header {
+  text-align: center;
+}
+.arrow-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 0.5rem auto;
+  transition: background-color 0.3s ease;
+}
+.arrow-button i {
+  color: #1a1a1a;
+  font-size: 1.2rem;
+}
+.arrow-button:hover {
+  background-color: var(--secondary-color);
 }
 .about-header h2 {
   font-size: 2rem;
   color: #3d3d3d;
-  margin-bottom: 0.25rem;
-}
-.about-header .underline {
-  width: 40px;
-  height: 4px;
-  background-color: #f6c867; /* match your yellow */
-  margin: 0.5rem auto 1.5rem;
-  border-radius: 2px;
+  margin: 1rem auto;
 }
 .about-text p {
   color: #3d3d3d;
-  margin: 0.75rem 0;
+  margin-top: 1.5rem;
   line-height: 1.6;
   font-size: 1rem;
 }
@@ -112,8 +126,8 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
+  width: var(--icon-size);
+  height: var(--icon-size);
   border-radius: 50%;
   background-color: var(--primary-color);
   transition: background-color 0.3s ease, transform 0.2s ease;
