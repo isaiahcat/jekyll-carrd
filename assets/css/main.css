@@ -29,7 +29,7 @@ body {
   width: var(--width);
   z-index: 1;
   padding: var(--padding-vertical) var(--padding-horizontal);
-  background-color: rgba(210, 210, 210, 0.90);
+  background-color: rgba(245, 245, 245, 0.90);
   border-radius: 28px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
