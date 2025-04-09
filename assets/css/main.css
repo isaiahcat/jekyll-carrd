@@ -23,15 +23,15 @@ body {
   --padding-vertical: 3.75rem;
   --spacing: 1.5rem;
   --width: 38rem;
-  border-radius: var(--border-radius-tl) var(--border-radius-tr) var(--border-radius-br) var(--border-radius-bl);
   max-width: 100%;
   position: relative;
   width: var(--width);
   z-index: 1;
   padding: var(--padding-vertical) var(--padding-horizontal);
   background-color: rgba(225, 225, 225, 0.90);
+  border: 1px solid rgba(0, 0, 0, 0.4);
   border-radius: 28px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 .card {
   border-top: 1px solid #3d3d3d;
