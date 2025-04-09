@@ -9,7 +9,7 @@ title: Home
       <img src="assets/images/image.png" alt="Image" width="256" />
       <h1>Isaiah Butler</h1>
       <div class="divider"></div>
-      <p>Agile Project Manager | Software Developer</p>
+      <p class="job-title">Agile Project Manager | Software Developer</p>
       {% include socials.html %}
     </div>
     <div class="card">
