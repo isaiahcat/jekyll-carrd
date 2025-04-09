@@ -11,7 +11,6 @@ title: Home
       <div class="divider"></div>
       <p>Agile Project Manager | Software Developer</p>
       {% include socials.html %}
-      <a href="/assets/resume.pdf" class="resume-button" target="_blank">View Resume</a>
     </div>
     <div class="card">
       <div class="text">

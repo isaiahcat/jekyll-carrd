@@ -38,24 +38,6 @@ body {
   background-color: var(--primary-color);
   margin: 0rem auto 0rem auto;
 }
-.resume-button {
-  display: inline-block;
-  margin: 0rem auto 1rem auto;
-  padding: 0.75rem 2rem;
-  background-color: var(--primary-color);
-  color: #2d2d2d;
-  font-weight: 600;
-  font-size: 0.95rem;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 2rem;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  transition: background 0.2s ease, transform 0.2s ease;
-}
-.resume-button:hover {
-  background-color: var(--secondary-color);
-  transform: translateY(-2px);
-}
 .card {
   border-top: 1px solid #3d3d3d;
   padding: 1em 0;
