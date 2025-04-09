@@ -6,7 +6,7 @@ title: Home
 <div class="wrapper">
   <div class="main">
     <div class="header" style="text-align: center;">
-      <img src="assets/images/image.png" alt="Image" width="128" />
+      <img src="assets/images/image.png" alt="Image" width="256" />
       <h1>Isaiah Butler</h1>
       <p>Agile Project Manager | Software Developer</p>
     </div>
