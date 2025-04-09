@@ -8,6 +8,7 @@ title: Home
     <div class="header" style="text-align: center;">
       <img src="assets/images/image.png" alt="Image" width="256" />
       <h1>Isaiah Butler</h1>
+      <div class="divider"></div>
       <p>Agile Project Manager | Software Developer</p>
       {% include socials.html %}
     </div>
