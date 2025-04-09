@@ -37,7 +37,7 @@ body {
   width: 50px;
   height: 4px;
   background-color: #d9b48c;
-  margin: 0.5rem auto 0.5rem auto;
+  margin: 0rem auto 0rem auto;
 }
 .card {
   border-top: 1px solid #3d3d3d;
@@ -75,7 +75,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 1em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 .social li a {
   text-decoration: none;
