@@ -9,6 +9,7 @@ title: Home
       <img src="assets/images/image.png" alt="Image" width="256" />
       <h1>Isaiah Butler</h1>
       <p>Agile Project Manager | Software Developer</p>
+      {% include socials.html %}
     </div>
 
     <div class="card">
@@ -37,7 +38,5 @@ title: Home
       </div>
       <img src="/assets/images/sample3.jpg" alt="Sample 3" />
     </div>
-
-    {% include footer.html %}
   </div>
 </div>
