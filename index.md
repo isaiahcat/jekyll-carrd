@@ -19,10 +19,10 @@ title: Home
         <div class="divider"></div>
       </div>
       <div class="about-text">
-        <p>Hi! 👋 I’m Isaiah Butler, and I’m a Technical Project Manager with a background in Software Development and a Master's in Computer Science. 🤖</p>
-        <p>I lead cross-functional teams and help ship software that’s user-focused and on time.</p>
-        <p>I’m passionate about collaborating across disciplines, optimizing workflows, and using tech to solve real-world problems efficiently.</p>
-        <p>I’ve worked on mobile apps, internal tools, and AI-based projects—and I’m always excited to learn more. 🤓</p>
+        <p>Hi! 👋 I’m Isaiah Butler - a Technical Project Manager with a background in Software Development and a Master's in Computer Science. 🤖</p>
+        <p>I lead cross-functional teams to deliver user-focused software, on time and with impact.</p>
+        <p>I'm passionate about streamlining workflows, bridging technical and non-technical teams, and using technology to solve real-world problems.</p>
+        <p>From mobile apps to internal tools to AI-driven projects, I love building things that matter - and I’m always excited to learn more. 🤓</p>
       </div>
     </section>
     <section id="skills" class="section">
