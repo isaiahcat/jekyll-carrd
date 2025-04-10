@@ -67,7 +67,7 @@ title: Home
       <div class="skills-col">
         <h4>Languages</h4>
         <ul>
-          <li><i class="fas fa-code"></i> Java</li>
+          <li><i class="fas fa-mug-hot"></i> Java</li>
           <li><i class="devicon-python-plain"></i> Python</li>
           <li><i class="devicon-c-plain"></i> C</li>
           <li><i class="devicon-cplusplus-plain"></i> C++</li>
