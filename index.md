@@ -78,7 +78,7 @@ title: Home
         <h4>AI/ML</h4>
         <ul>
           <li><i class="devicon-tensorflow-original"></i> TensorFlow</li>
-          <li><i class="fas fa-brain"></i> Keras</li>
+          <li><i class="fas fa-k"></i> Keras</li>
           <li><i class="devicon-jupyter-plain"></i> Jupyter</li>
           <li><i class="devicon-pandas-plain"></i> Pandas</li>
           <li><i class="devicon-pytorch-original"></i> PyTorch</li>
