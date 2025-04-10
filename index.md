@@ -152,6 +152,20 @@ title: Home
         <img src="/assets/images/sample3.jpg" alt="Sample 3" />
       </div>
     </section>
+    <section id="certifications" class="section" >
+      <div class="section-header">
+        <a href="#certifications" class="arrow-button"><i class="fas fa-chevron-down"></i></a>        
+        <h2 class="section-title">Professional Certifications</h2>
+        <div class="divider"></div>
+      </div>
+    </section>
+    <section id="end" class="section" >
+      <div class="section-header">
+        <a href="#end" class="arrow-button"><i class="fas fa-chevron-down"></i></a>        
+        <h2 class="section-title">Thanks!</h2>
+        <div class="divider"></div>
+      </div>
+    </section>
     <footer class="footer">
         {% include socials.html %}
       <p>&copy; Isaiah Butler. 2025. All rights reserved.</p>
