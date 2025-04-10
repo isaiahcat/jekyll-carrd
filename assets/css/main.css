@@ -122,7 +122,7 @@ body {
   text-align: center;
 }
 .card {
-  border-bottom: 1px solid #3d3d3d;
+  border-top: 1px solid #3d3d3d;
   padding: 1em 0;
   display: flex;
   align-items: center;
